@@ -3,7 +3,7 @@ import { Text, View, StyleSheet, Pressable, Image, FlatList, useWindowDimensions
 import { Link, router } from 'expo-router';
 
 
-import slides from '../components/slideDetails'
+import slides from '../components/slideDetails';
 
 export default function OpeningScreen() {
     const [currentIndex, setCurrentIndex] = useState(0);
